@@ -33,7 +33,7 @@ function App() {
                 <AdminLayout />
               </ProtectedRoute>
             }
-          >
+          > <h1>This is just to test</h1>
             <Route index element={<AdminDashboard />} />
             <Route path="dashboard" element={<AdminDashboard />} />
             <Route path="features" element={<ManageFeatures />} />
